@@ -17,8 +17,8 @@ for item in iamdata:
     speed = att["speed"]
     mtu = att["mtu"]
     output = ""
-    if(len(dn)==42):
-        output+=dn + " "*30  +speed+"   " + mtu
+    if(len(dn) == 42):
+        output += dn + " " * 30  + speed + "   " + mtu
     else:
-        output += dn + " "*31 + speed + "   " + mtu
+        output += dn + " " * 31 + speed + "   " + mtu
     print(output)
